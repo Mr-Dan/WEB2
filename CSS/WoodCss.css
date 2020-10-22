@@ -1,0 +1,341 @@
+@media screen and (min-width: 1024px) {
+
+
+.WoodLandIcon
+{
+
+	height: 70px;
+padding-left: 15px;
+
+}
+.menubutton
+{
+	
+	height: 40px;
+	margin-top: 10px;
+}
+
+.buttunhat 
+{
+	 color: #8B4513;
+	 font-family: "Monotype Corsiva" Cursive; 
+    font-size: 1.0em; 
+} 
+
+
+.logoText
+{		
+	 color: #8B4513;
+	     font-size: 200%; 
+ 		font-family: "Monotype Corsiva" Cursive; 
+ 		 		margin-top: 30px;
+
+}
+
+ .InfoWoodLandText 
+{
+
+	text-align: center;
+	color: #FCF8F8	;
+}
+
+.InfoWoodLandsquare
+{
+
+	width: 1200px;
+	
+	background: rgba(54,57,63,0.6);
+	border-radius:  25px ;
+	margin-top:10%;
+ 	margin-left: auto;
+    margin-right: auto;
+}
+
+
+.logoText:hover {
+    color:#8B4513	;	  
+    text-decoration: none;
+   } 
+
+li a:hover {
+    color:#90652C	;	  
+    text-decoration: none;
+   }
+
+ body
+ { 	
+ 
+  	background: url(../wood/MainWood3.jpg) no-repeat center center fixed;
+	background-size: cover;
+ }  
+
+  nav ul {
+ 	list-style-type: none;
+ 	padding-right: 30px;
+ 		}
+  nav ul li {
+ 	display: inline-block;
+ 	padding-right: 30px;
+ 	}
+
+
+.Menu
+{
+ height: 80px;
+max-width: 100%;
+}
+.hat
+{
+	
+ 	height: 80px;
+	width: 100%;
+ 	background: #DEB887 ;
+}
+
+
+
+.iconmenu
+{
+
+	height: 40px;
+}
+
+.PersonalAria
+{
+ height: 80px;
+ width: 100%;
+	 color: #8B8013;
+}
+
+}
+ 
+
+
+
+
+
+
+
+@media screen and (min-width: 768px )and (max-width: 1024px)
+{
+
+
+.WoodLandIcon
+{
+
+	height: 50px;
+	padding-left: 15px;
+
+}
+.menubutton
+{
+	
+	height: 30px;
+	margin-top: 10px;
+}
+
+.buttunhat 
+{
+	 color: #8B4513;
+	 font-family: "Monotype Corsiva" Cursive; 
+    font-size: 75%; 
+} 
+
+
+.logoText
+{		
+
+	 color: #8B4513;
+	     font-size: 150%; 
+ 		font-family: "Monotype Corsiva" Cursive; 
+
+}
+
+ .InfoWoodLandText 
+{
+
+	text-align: center;
+	color: #FCF8F8	;
+}
+
+.InfoWoodLandsquare
+{
+
+	width: 768px;
+	max-height: 100%;
+	background: rgba(54,57,63,0.6);
+	border-radius:  25px ;
+	margin-top:20%;
+ 	margin-left: auto;
+    margin-right: auto;
+}
+
+
+.logoText:hover {
+    color:#8B4513	;	  
+    text-decoration: none;
+   } 
+
+li a:hover {
+    color:#90652C	;	  
+    text-decoration: none;
+   }
+
+ body
+ { 	
+ 
+  	background: url(../wood/MainWood3.jpg) no-repeat center center fixed;
+	background-size: cover;
+ }  
+
+  nav ul {
+ 	list-style-type: none;
+ 	padding-right: 30px;
+ 		}
+
+  nav ul li
+   {
+ 	display: inline-block;
+ 	padding-right: 30px;
+ 	}
+
+
+.Menu
+{
+	 height: 60px;
+	max-width: 100%;
+}
+.hat
+{
+	
+ 	height: 60px;
+	width:100%;
+ 	background: #DEB887 ;
+}
+
+
+.iconmenu
+{
+
+	height: 30px;
+}
+
+.PersonalAria
+{
+ height: 80px;
+ width: 100%;
+	 color: #8B8013;
+}
+
+}
+ 
+@media screen  and (max-width: 768px)
+
+{
+
+.WoodLandIcon
+{
+
+	height: 70px;
+padding-left: 15px;
+
+}
+.menubutton
+{
+	
+	height: 40px;
+	margin-top: 10px;
+}
+
+.buttunhat 
+{
+	 color: #8B4513;
+	 font-family: "Monotype Corsiva" Cursive; 
+    font-size: 1.0em; 
+} 
+
+
+.logoText
+{		
+	 color: #8B4513;
+	     font-size: 200%; 
+ 		font-family: "Monotype Corsiva" Cursive; 
+ 		 		margin-top: 30px;
+
+}
+
+ .InfoWoodLandText 
+{
+
+	text-align: center;
+	color: #FCF8F8	;
+}
+
+.InfoWoodLandsquare
+{
+
+	width: 1200px;
+
+	background: rgba(54,57,63,0.6);
+	border-radius:  25px ;
+	margin-top:20%;
+ 	margin-left: auto;
+    margin-right: auto;
+}
+
+
+.logoText:hover {
+    color:#8B4513	;	  
+    text-decoration: none;
+   } 
+
+li a:hover {
+    color:#90652C	;	  
+    text-decoration: none;
+   }
+
+ body
+ { 	
+ 
+  	background: url(../wood/MainWood3.jpg) no-repeat center center fixed;
+	background-size: cover;
+ }  
+
+  nav ul {
+ 	list-style-type: none;
+ 	padding-right: 30px;
+ 		}
+  nav ul li {
+ 	display: inline-block;
+ 	padding-right: 30px;
+ 	}
+
+
+.Menu
+{
+ height: 80px;
+max-width: 100%;
+}
+.hat
+{
+	
+ 	height: 80px;
+	width: 1200px;
+ 	background: #DEB887 ;
+}
+
+
+
+.iconmenu
+{
+
+	height: 40px;
+}
+
+.PersonalAria
+{
+ height: 80px;
+ width: 100%;
+	 color: #8B8013;
+}
+}

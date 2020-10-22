@@ -1,0 +1,560 @@
+
+@media screen and (min-width: 1366px) {
+.InfoShopText 
+{
+ width: 200px;
+   height: 20px;
+  text-align: center;
+  color: #FCF8F8  ;
+  font-size: 120%; 
+
+}
+.InfoShopTextCost 
+{
+margin-left: 10px;
+  color: #FCF8F8  ;
+  font-size: 120%; 
+}
+
+ .InfoShopsquareSizeShop
+{
+   width: 1200px;
+ 
+}
+
+ .InfoShopsquareSize
+{
+   margin-top: 50px;
+}
+.InfoShopsquare
+{
+    margin-left: auto;
+    margin-right: auto;
+     width: 1200px;
+background: rgba(54,57,63,0.9);
+border-radius: 25px;
+  box-sizing:border-box;
+}
+
+.Sideboard
+{
+ 
+  width: 200px;
+    height: auto;
+  background:#EFD0A8 ;
+border-radius: 25px;
+
+}
+
+.WoodLandShopText
+{
+ color: #8B4513;
+   font-family: "Monotype Corsiva" Cursive; 
+    font-size: 150%; 
+margin-left: 530px;
+
+}
+.WoodLandShopTextMaterial
+{
+  margin-top:10px; 
+   width:200px;
+   height: 40px;
+  font-size: 150%; 
+
+}
+
+.MaterialBlockShopindent
+{
+  margin-left: 20px;
+  margin-top: 15px;  
+}
+
+.MaterialBlockShop
+{
+
+  width:1000px;
+   height: 700px;
+ line-height: 15px;
+
+}
+
+.MaterialBlock
+{
+
+background: #DEB887 ;
+
+ max-width: auto;
+   max-height: auto;
+
+margin-top: 20px;
+margin-left:25px;
+ border-radius: 25px;
+}
+.MaterialBlockIcon
+{
+
+
+height: 120px;
+ width: 120px;
+ margin-left:40px;
+margin-top: 10px;
+
+}
+
+
+.WoodLandShopBar
+{ 
+
+   max-width: auto;
+   max-height: 40px;
+    background: #DEB887 ;
+    border-radius: 25px;
+     
+}
+
+
+.iconShop
+{
+   width: 120px;
+  height: 120px;
+   margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.buyButton
+{
+  margin-top: 20px;
+margin-left: 50px;
+box-sizing: border-box;
+}
+
+a:hover {
+    color:#90652C ;   
+    text-decoration: none;
+
+  }
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+ 
+ .InfoShopText 
+{
+ width: 170px;
+   height: 20px;
+  text-align: center;
+  color: #FCF8F8  ;
+  font-size: 120%; 
+
+}
+.InfoShopTextCost 
+{
+margin-left: 10px;
+  color: #FCF8F8  ;
+  font-size: 120%; 
+}
+
+ .InfoShopsquareSizeShop
+{
+   width: 1000px;
+ 
+}
+
+ .InfoShopsquareSize
+{
+   margin-top: 50px;
+}
+.InfoShopsquare
+{
+    margin-left: auto;
+    margin-right: auto;
+     width: 1000px;
+background: rgba(54,57,63,0.9);
+border-radius: 25px;
+  box-sizing:border-box;
+}
+
+.Sideboard
+{
+ 
+  width: 200px;
+    height: auto;
+  background:#EFD0A8 ;
+border-radius: 25px;
+
+}
+
+.WoodLandShopText
+{
+ color: #8B4513;
+   font-family: "Monotype Corsiva" Cursive; 
+    font-size: 150%; 
+margin-left: 450px;
+
+}
+.WoodLandShopTextMaterial
+{
+  margin-top:10px; 
+   width:200px;
+   height: 40px;
+  font-size: 150%; 
+
+}
+
+.MaterialBlockShopindent
+{
+  margin-left: 0px;
+  margin-top: 15px;  
+}
+
+.MaterialBlockShop
+{
+
+  width:800px;
+   height: 630px;
+ line-height: 15px;
+
+}
+
+.MaterialBlock
+{
+
+background: #DEB887 ;
+
+  width: 170px;
+   height:260px;
+
+margin-top: 20px;
+margin-left:25px;
+ border-radius: 25px;
+}
+.MaterialBlockIcon
+{
+
+
+height: 80px;
+ width: 80px;
+ margin-left:40px;
+margin-top: 10px;
+
+}
+
+
+.WoodLandShopBar
+{ 
+
+   max-width: auto;
+   max-height: 40px;
+    background: #DEB887 ;
+    border-radius: 25px;
+     
+}
+
+
+.iconShop
+{
+   width: 120px;
+  height: 120px;
+   margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.buyButton
+{
+  margin-top: 25px;
+margin-left: 40px;
+box-sizing: border-box;
+}
+
+a:hover {
+    color:#90652C ;   
+    text-decoration: none;
+
+  }
+
+}
+
+
+@media screen and (min-width: 768px )and (max-width: 1024px){
+ 
+ .InfoShopText 
+{
+ width: 130px;
+   height: 20px;
+  text-align: center;
+  color: #FCF8F8  ;
+  font-size: 100%; 
+
+}
+.InfoShopTextCost 
+{
+
+margin-left: 5px;
+  color: #FCF8F8  ;
+  font-size: 105%; 
+}
+
+ .InfoShopsquareSizeShop
+{
+   width: 768px;
+ 
+}
+
+ .InfoShopsquareSize
+{
+   margin-top: 50px;
+}
+.InfoShopsquare
+{
+    margin-left: auto;
+    margin-right: auto;
+     width: 768px;
+  background: rgba(54,57,63,0.9);
+  border-radius: 25px;
+  box-sizing:border-box;
+}
+
+.Sideboard
+{
+ 
+  width: 120px;
+    height: auto;
+  background:#EFD0A8 ;
+border-radius: 25px;
+
+}
+
+.WoodLandShopText
+{
+ color: #8B4513;
+   font-family: "Monotype Corsiva" Cursive; 
+    font-size: 150%; 
+margin-left: 330px;
+
+}
+.WoodLandShopTextMaterial
+{
+  margin-top:10px; 
+   width:150px;
+   height: 40px;
+  font-size: 150%; 
+
+}
+
+.MaterialBlockShopindent
+{
+  margin-left: 0px;
+  margin-top: 15px;  
+}
+
+.MaterialBlockShop
+{
+
+  width:648px;
+   height: 630px;
+ line-height: 15px;
+
+}
+
+.MaterialBlock
+{
+
+background: #DEB887 ;
+
+  width: 143px;
+   height:260px;
+
+margin-top: 20px;
+margin-left:15px;
+ border-radius: 25px;
+}
+.MaterialBlockIcon
+{
+
+
+height: 80px;
+ width: 80px;
+ margin-left:35px;
+margin-top: 10px;
+
+}
+
+
+.WoodLandShopBar
+{ 
+
+   max-width: auto;
+   max-height: 40px;
+    background: #DEB887 ;
+    border-radius: 25px;
+     
+}
+
+
+.iconShop
+{
+   width: 120px;
+  height: 120px;
+   margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.buyButton
+{
+  margin-top: 8px;
+margin-left: 25px;
+box-sizing: border-box;
+}
+
+a:hover {
+    color:#90652C ;   
+    text-decoration: none;
+
+  }
+
+}
+@media screen and (max-width: 768px)
+
+{
+
+ .InfoShopText 
+{
+ width: 200px;
+   height: 20px;
+  text-align: center;
+  color: #FCF8F8  ;
+  font-size: 120%; 
+
+}
+.InfoShopTextCost 
+{
+margin-left: 10px;
+  color: #FCF8F8  ;
+  font-size: 120%; 
+}
+
+ .InfoShopsquareSizeShop
+{
+   width: 1200px;
+ 
+}
+
+ .InfoShopsquareSize
+{
+   margin-top: 50px;
+}
+.InfoShopsquare
+{
+    margin-left: auto;
+    margin-right: auto;
+     width: 1200px;
+background: rgba(54,57,63,0.9);
+border-radius: 25px;
+  box-sizing:border-box;
+}
+
+.Sideboard
+{
+ 
+  width: 200px;
+    height: auto;
+  background:#EFD0A8 ;
+border-radius: 25px;
+
+}
+
+.WoodLandShopText
+{
+ color: #8B4513;
+   font-family: "Monotype Corsiva" Cursive; 
+    font-size: 150%; 
+margin-left: 530px;
+
+}
+.WoodLandShopTextMaterial
+{
+  margin-top:10px; 
+   width:200px;
+   height: 40px;
+  font-size: 150%; 
+
+}
+
+.MaterialBlockShopindent
+{
+  margin-left: 20px;
+  margin-top: 15px;  
+}
+
+.MaterialBlockShop
+{
+
+  width:1000px;
+   height: 700px;
+ line-height: 15px;
+
+}
+
+.MaterialBlock
+{
+
+background: #DEB887 ;
+
+ max-width: auto;
+   max-height: auto;
+
+margin-top: 20px;
+margin-left:25px;
+ border-radius: 25px;
+}
+.MaterialBlockIcon
+{
+
+
+height: 120px;
+ width: 120px;
+ margin-left:40px;
+margin-top: 10px;
+
+}
+
+
+.WoodLandShopBar
+{ 
+
+   max-width: auto;
+   max-height: 40px;
+    background: #DEB887 ;
+    border-radius: 25px;
+     
+}
+
+
+.iconShop
+{
+   width: 120px;
+  height: 120px;
+   margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.buyButton
+{
+  margin-top: 20px;
+margin-left: 50px;
+box-sizing: border-box;
+}
+
+a:hover {
+    color:#90652C ;   
+    text-decoration: none;
+
+  }
+
+
+}

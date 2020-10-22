@@ -1,0 +1,36 @@
+ .authorizationWoodLandText 
+{
+
+    text-align: center;
+    color: #FCF8F8  ;
+}
+
+.authorizationWoodLandsquare
+{
+
+    width: 500px;
+    background: rgba(54,57,63,1.0);
+    border-radius:  25px ;
+    margin-top:10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_auth 
+{
+ width: 290px;
+  margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.mesage_error{
+    color: #cc0000;
+}
+
+.success_message{
+    color: green;
+}
+
+.block_for_messages{
+    text-align: center;
+}

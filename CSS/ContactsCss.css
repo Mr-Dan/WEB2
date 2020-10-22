@@ -1,0 +1,46 @@
+.InfoWoodLandContacts
+{   margin-left: auto;
+    margin-right: auto;
+	margin-top: 100px;
+	
+	width: 800px;
+	height: 600px;
+background: rgba(54,57,63,0.9);
+border-radius:   25px ;
+
+}
+
+.InfoWoodLandContactsBar
+{ 
+	height: 50px;
+ width: 800px;
+ 	  background: #DEB887 ;
+border-radius:  25px   ;
+
+}
+.InfoWoodLandContactsText
+{
+	color: #8B4513;
+	 font-family: "Monotype Corsiva" Cursive; 
+    font-size: 150%; 
+	text-align: center;
+
+}
+.WoodLandTextContacts
+{
+margin-left:  10px;
+    font-size: 150%; 
+
+	color: #FCF8F8	;
+}
+div p
+{
+	 line-height: 0.9em;
+}
+.mapContacts
+{
+	width: 350px;
+	height: 500px;
+  background: url(../wood/map.jpg) no-repeat  ;
+
+}

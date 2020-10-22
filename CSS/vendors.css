@@ -1,0 +1,41 @@
+.InfoVendorssquare
+{
+margin-top: 60px;
+max-height: 100%;
+  width: 1200px;
+   height: 600px;
+background: rgba(54,57,63,0.9);
+border-radius: 25px;
+
+      margin-left: auto;
+    margin-right: auto;
+}
+
+.WoodLandVendorsBar
+{ 
+  height: 50px;
+ width: 1200px;
+    background: #DEB887 ;
+    border-radius: 25px;
+}
+.WoodLandVendorsText
+{
+  
+ color: #8B4513;
+   font-family: "Monotype Corsiva" Cursive; 
+    font-size: 150%; 
+margin-left: 520px;
+
+}
+.InfoVendorssquareMini
+{
+  width: 1100px;
+   height: 200px;
+}
+.WoodLandTextVendors
+{
+margin-left:  10px;
+    font-size: 80%; 
+
+	color: #FCF8F8	;
+}
