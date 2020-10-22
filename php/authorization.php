@@ -41,7 +41,7 @@ $users = array(
          
                     //Возвращаем пользователя на страницу авторизации
                     header("HTTP/1.1 301 Moved Permanently");
-                    header("Location: ".$address_site."../php/authorizationMain.php");
+                    header("Location: ".$address_site."../authorizationMain.php");
          
                     //Останавливаем скрипт
                     exit();
@@ -56,7 +56,7 @@ $users = array(
          
                 //Возвращаем пользователя на страницу авторизации
                 header("HTTP/1.1 301 Moved Permanently");
-                header("Location: ".$address_site."../php/form_auth.php");
+                header("Location: ".$address_site."../authorizationMain.php");
          
                 //Останавливаем скрипт
                 exit();
@@ -81,7 +81,7 @@ $users = array(
                          
                         //Возвращаем пользователя на страницу авторизации
                         header("HTTP/1.1 301 Moved Permanently");
-                        header("Location: ".$address_site."../php/authorizationMain.php");
+                        header("Location: ".$address_site."../authorizationMain.php");
              
                         //Останавливаем скрипт
                         exit();
@@ -95,7 +95,7 @@ $users = array(
                  
                 //Возвращаем пользователя на страницу авторизации
                 header("HTTP/1.1 301 Moved Permanently");
-                header("Location: ".$address_site."../php/authorizationMain.php");
+                header("Location: ".$address_site."../authorizationMain.php");
              
                 //Останавливаем скрипт
                 exit();
@@ -120,7 +120,7 @@ $users = array(
                      
                     //Возвращаем пользователя на страницу регистрации
                     header("HTTP/1.1 301 Moved Permanently");
-                    header("Location: ".$address_site."../php/authorizationMain.php");
+                    header("Location: ".$address_site."../authorizationMain.php");
              
                     //Останавливаем скрипт
                     exit();
@@ -159,7 +159,7 @@ $users = array(
                      
                     //Возвращаем пользователя на страницу авторизации
                     header("HTTP/1.1 301 Moved Permanently");
-                    header("Location: ".$address_site."../php/authorizationMain.php");
+                    header("Location: ".$address_site."../authorizationMain.php");
              
                     //Останавливаем скрипт
                     exit();

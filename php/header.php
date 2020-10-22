@@ -121,7 +121,7 @@ session_start();
                 if(!isset($_SESSION['email']) && !isset($_SESSION['password'])){
                     // если нет, то выводим блок с ссылками на страницу регистрации и авторизации
             ?>
-                        <a  class="dropdown-item" href="../php/authorizationmain.php">Авторизация</a>                  
+                        <a  class="dropdown-item" href="authorizationmain.php">Авторизация</a>                  
             <?php
                 }else{
                     //Если пользователь авторизован, то выводим ссылку Выход
