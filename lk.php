@@ -30,9 +30,13 @@ require_once("php/dbconnect.php");
 <?php
 
  $email=$_SESSION['email'];
-                  
- $result = $mysqli->query("SELECT * FROM `person` WHERE `email` = '".$email."' ");
- $Person = mysqli_fetch_array($result, MYSQLI_ASSOC);
+         
+$reg = $mysqli->prepare("SELECT * FROM person WHERE email = ?");
+$reg->bind_param("s", $_SESSION['email']);
+$reg->execute();
+$result = $reg->get_result();
+$Person = $result->fetch_assoc() 
+
 
  ?>
      <H1> Личный кабинет </H1>
@@ -65,6 +69,8 @@ require_once("php/dbconnect.php");
 
 <?php
     //Подключение корзины
+$filejs='Cart/jscode.js';
+
     require_once("Cart/cartoption.php");
 ?>
 </body>

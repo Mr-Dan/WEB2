@@ -26,7 +26,9 @@ $users = array(
          
             //Обрезаем пробелы с начала и с конца строки
             $captcha = trim($_POST["captcha"]);
-         
+             $captcha = htmlspecialchars($captcha, ENT_QUOTES);
+
+
             if(!empty($captcha)){
          
                 //Сравниваем полученное значение с значением из сессии. 

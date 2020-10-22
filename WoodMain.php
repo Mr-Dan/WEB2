@@ -3,10 +3,6 @@
     require_once("php/header.php");
 ?>
 
-
-
-
-
     <div class="col-12 InfoWoodLandsquare" > 
 <div class="  InfoWoodLandText">
       <h1 >Wood Land</h1>
@@ -19,6 +15,7 @@
 </div>
 <?php
     //Подключение корзины
+$filejs='Cart/jscode.js';
     require_once("Cart/cartoption.php");
 ?>
 

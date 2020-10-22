@@ -29,9 +29,6 @@ if(isset($_POST['email'], $_POST['password'])) {
 ?>
 
 
-
-
-
     <div class="col-sm-12 authorizationWoodLandsquare" > 
 <div class="  authorizationWoodLandText">
      <?php
@@ -118,6 +115,8 @@ if(isset($_POST['email'], $_POST['password'])) {
 
 <?php
     //Подключение корзины
+$filejs='Cart/jscode.js';
+
     require_once("Cart/cartoption.php");
 ?>
 </body>

