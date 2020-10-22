@@ -53,7 +53,7 @@ require_once("php/dbconnect.php");
  
     <div id="authorized">
         <h2>Вы не авторизованы</h2>
-        <a href="../php/authorizationmain.php" type="button" class="btn btn-primary" >Авторизоваться</a>
+        <a href="authorizationmain.php" type="button" class="btn btn-primary" >Авторизоваться</a>
 
 
     </div>
