@@ -11,9 +11,6 @@ $csrf = new csrf();
 $token_id = $csrf->get_token_id();
 $token_value = $csrf->get_token($token_id);
 
-// Генерация случайных названий для полей формы
-
-
 
 if(isset($_POST['email'], $_POST['password'])) {
   // Проверяем являются ли валидными id и значение токена.
