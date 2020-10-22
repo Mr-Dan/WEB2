@@ -1,6 +1,6 @@
 
 <?php 
-$filebase64='K'.base64_encode(file_get_contents('./Cart/jscode.js'));?>
+$filebase64='K'.base64_encode(file_get_contents('Cart/jscode.js'));?>
 
 <script>glob('<?=$filebase64?>')</script>
 
