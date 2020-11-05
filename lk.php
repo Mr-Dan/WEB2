@@ -29,13 +29,15 @@ require_once("php/dbconnect.php");
 ?>
 <?php
 
- $email=$_SESSION['email'];
-         
+ //$email=$_SESSION['email'];
+
+ $email_real_escape_string= $mysqli -> real_escape_string($_SESSION['email']);
 $reg = $mysqli->prepare("SELECT * FROM person WHERE email = ?");
-$reg->bind_param("s", $_SESSION['email']);
+$reg->bind_param("s",  $email_real_escape_string);
 $reg->execute();
 $result = $reg->get_result();
-$Person = $result->fetch_assoc() 
+$Person = $result->fetch_assoc();
+
 
 
  ?>
@@ -43,8 +45,8 @@ $Person = $result->fetch_assoc()
        <p> Здравствуйте, <?php echo  $Person['Person_name'] ?>  </p>
         <p>  Секретный id, <?php echo  $Person['Person_id'] ?> </p>
             <p> Ваш логин , <?php echo  $Person['email'] ?> </p>
-
-         
+ 
+        
 </div>
     </div>
 </div>

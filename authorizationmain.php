@@ -77,7 +77,9 @@ if(isset($_POST['email'], $_POST['password'])) {
     <?php
  
         if(isset($_SESSION["error_messages"]) && !empty($_SESSION["error_messages"])){
-            echo $_SESSION["error_messages"];
+           echo $_SESSION["error_messages"];
+          
+        
  
             //Уничтожаем чтобы не появилось заново при обновлении страницы
             unset($_SESSION["error_messages"]);
