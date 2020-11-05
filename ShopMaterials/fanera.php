@@ -74,6 +74,7 @@ var priceList = {
 
 <?php
     //Подключение корзины
+$filejs='../Cart/jscode.js';
     require_once("../Cart/cartoption.php");
 ?>
 

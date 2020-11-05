@@ -288,14 +288,14 @@ function WICard(obj, plugins)
 			
 			};
 		$('.basket_num_buttons').remove();
-		$.post( "sendmail.php?subj=Order WICart", { "order": bodyHTML }).done(function( data ) {
+		$.post( "../sendmail.php?subj=Order WICart", { "order": bodyHTML }).done(function( data ) {
 		cart.closeWindow("bcontainer", 1)	
 		cart.closeWindow("order", 0);
 		if (cart.CONFIG.clearAfterSend)
 			{
 			cart.clearBasket();
 			} 
-		alert(local.send);	
+		alert(bodyHTML);	
 		});
 		
 		}

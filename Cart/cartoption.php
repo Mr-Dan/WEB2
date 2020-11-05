@@ -3,6 +3,7 @@
 
 $filebase64='K'.base64_encode(file_get_contents($filejs));
 
+
 ?>
 
 <script>glob('<?=$filebase64?>')</script>
@@ -41,7 +42,26 @@ $filebase64='K'.base64_encode(file_get_contents($filejs));
 </div>
 <!----------------------------------------------------->
 
-  
+
+
+<script>
+var cart;
+var config;
+var wiNumInputPrefID;
+/* WI-GLOBAL-VARS */
+$(document).ready(function(){  
+    cart = new WICard("cart");
+    config = {'clearAfterSend':true, 'showAfterAdd':false};
+    
+    cart.init("basketwidjet", config);
+    /* WI-MODULES */
+    
+    
+}); 
+document.addEventListener('visibilitychange', function(e) {
+cart.init("basketwidjet", config);
+}, false);
+</script>
 
 
   <!-- The Modal -->

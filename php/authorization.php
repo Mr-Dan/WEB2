@@ -1,4 +1,6 @@
 <?php
+include '../php/protection/safety_request_file.php';
+
     //Запускаем сессию
     session_start();
 $address_site_auth = "http://localhost/php/authorizationmain.php";
@@ -8,6 +10,8 @@ $users = array(
     "lupus@gmail.ru" => md5("lupus"),
     "we@gmail.yes" => md5("nocat")
 );
+
+$s_request= new safety_request_class();
 
     //Объявляем ячейку для добавления ошибок, которые могут возникнуть при обработке формы.
     $_SESSION["error_messages"] = '';
@@ -26,8 +30,8 @@ $users = array(
          
             //Обрезаем пробелы с начала и с конца строки
             $captcha = trim($_POST["captcha"]);
-             $captcha = htmlspecialchars($captcha, ENT_QUOTES);
-
+         //  $captcha = htmlspecialchars($captcha, ENT_QUOTES);
+            $captcha=$s_request ->safety_request($captcha,"int");//Возвращает целое значение переменной
 
             if(!empty($captcha)){
          
@@ -39,7 +43,7 @@ $users = array(
                     $error_message = "<p class='mesage_error'><strong>Ошибка!</strong> Вы ввели неправильную капчу </p>";
          
                     // Сохраняем в сессию сообщение об ошибке. 
-                    $_SESSION["error_messages"] = $error_message;
+                   // $_SESSION["error_messages"] = $error_message;
          
                     //Возвращаем пользователя на страницу авторизации
                     header("HTTP/1.1 301 Moved Permanently");
@@ -54,7 +58,7 @@ $users = array(
                 $error_message = "<p class='mesage_error'><strong>Ошибка!</strong> Поле для ввода капчи не должна быть пустой. </p>";
          
                 // Сохраняем в сессию сообщение об ошибке. 
-                $_SESSION["error_messages"] = $error_message;
+               $_SESSION["error_messages"] = $error_message;
          
                 //Возвращаем пользователя на страницу авторизации
                 header("HTTP/1.1 301 Moved Permanently");
@@ -68,6 +72,10 @@ $users = array(
             //(2) Место для обработки email
             //Обрезаем пробелы с начала и с конца строки
             $email = trim($_POST["email"]);
+          
+
+        $email=$s_request ->safety_request($email,"string");
+
             if(isset($_POST["email"])){
              
                 if(!empty($email)){
@@ -108,7 +116,9 @@ $users = array(
  
                 //Обрезаем пробелы с начала и с конца строки
                 $password = trim($_POST["password"]);
-             
+                
+         $password=$s_request ->safety_request($password,"string");
+
                 if(!empty($password)){
                     $password = htmlspecialchars($password, ENT_QUOTES);
              
